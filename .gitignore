@@ -1,0 +1,5 @@
+
+.idea/*
+SpringBootAngularSample.iml
+*.class
+*.log

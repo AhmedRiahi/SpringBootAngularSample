@@ -1,0 +1,24 @@
+<div ng-controller='NavbarController'>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="#">Sample App</a>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item" ng-class="{active: isActive('/home')}">
+                <a class="nav-link" ui-sref="home"><span class="fas fa-project-diagram"></span> Home</a>
+              </li>
+              <li class="nav-item" ng-class="{active: isActive('/about')}">
+                <a class="nav-link" ui-sref="about"><span class="fas fa-puzzle-piece"></span> About</a>
+              </li>
+             
+            </ul>
+
+            <ul class="nav navbar-nav pull-right">
+              <li><a href="javascript:void(0)">Hello World :)</a></li>
+            </ul>
+        </div>
+
+      </div>
+  </nav>
+</div>
